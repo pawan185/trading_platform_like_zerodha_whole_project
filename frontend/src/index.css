@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-item {
+        margin-left: 40px;
+}
+footer .footer-graveyard-links ul li{
+  display: inline-block;
+  margin-right: 50px;
+  font-size: .8em;
+}
+
+footer .col {
+    line-height: 2;
+    margin-bottom: 10px;
+}
+
