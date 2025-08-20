@@ -14,18 +14,18 @@ function LeftSection({
       <div className="col-6 p-3">
         <img src={imageURL} />
       </div>
-      <div className="col-6 mt-5">
-        <h1>{ProductsName}</h1>
+      <div className="col-6 mt-5 mb-5">
+        <h3>{ProductsName}</h3>
         <p>{ProductsDescription}</p>
-        <div>
-          <a href={TypeDemo}>Try Demo</a>
-          <a href={LearnMore} style={{ marginLeft: "50px" }}>Learn More</a>
+        <div className="mb-4 text-muted">
+          <a href={TypeDemo} style={{ textDecoration :"none" , marginRight: "50px" }}>Try Demo <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          <a href={LearnMore} style={{ marginLeft: "110px", textDecoration :"none" }}>Learn More <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
         </div>
-        <div>
+        <div >
           <a className="mt-3" href={googlePlay}>
-            <img src="media/images/googlePlayBadge.svg" />
+            <img src="media/images/googlePlayBadge.svg" style={{ marginRight: "50px" }}/>
           </a>
-          <a href={AppStore}>
+          <a className="mb-5" href={AppStore}>
             <img src="media/images/appstoreBadge.svg" style={{ marginLeft: "50px" }} />
           </a>
         </div>
